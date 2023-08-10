@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DocuMate</string>
+    <string name="passport">Passport</string>
+    <string name="aadhaar">Aadhaar</string>
+    <string name="voter_id">Voter id</string>
+    <string name="income">Income</string>
+    <string name="domicile">Domicile</string>
+    <string name="birth_certificate">Birth Certificate</string>
+    <string name="driving_license">Driving License</string>
+    <string name="more">Coming more</string>
+</resources>

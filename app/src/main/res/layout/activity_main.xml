@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:useDefaultMargins="true">
+
+        <Button
+            android:id="@+id/passport"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/passport"
+            android:text="@string/passport"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:backgroundTint="#5DBFEC"/>
+
+        <Button
+            android:id="@+id/aadhaar"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/aadhaar"
+            android:text="@string/aadhaar"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:backgroundTint="#5DBFEC"/>
+
+        <Button
+            android:id="@+id/voter"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/voter"
+            android:text="@string/voter_id"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:backgroundTint="#5DBFEC"/>
+
+        <Button
+            android:id="@+id/birth"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/birth_certificate"
+            android:text="@string/birth_certificate"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:backgroundTint="#5DBFEC"/>
+
+        <Button
+            android:id="@+id/domicile"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/domicile"
+            android:text="@string/domicile"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:backgroundTint="#5DBFEC"/>
+
+        <Button
+            android:id="@+id/income"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/income"
+            android:text="@string/income"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:backgroundTint="#5DBFEC"/>
+
+        <Button
+            android:id="@+id/driving"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/driving_license"
+            android:text="@string/driving_license"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:backgroundTint="#5DBFEC" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/more"
+            android:text="@string/more"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:backgroundTint="#5DBFEC" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/more"
+            android:text="@string/more"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:backgroundTint="#5DBFEC" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/more"
+            android:text="@string/more"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:backgroundTint="#5DBFEC" />
+
+    </GridLayout>
+
+
+</ScrollView>
